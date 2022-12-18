@@ -1,0 +1,23 @@
+- this application will be built using class based components
+- for better method management, concepts of classes is better used in class based components
+- when we use constructor in class component then we have to call super() everytime. Otherwise it will give an error
+- componentDidMount is lifecycle method which runs after render() is executed. 
+- Whenever category is changing, we can use that category in constructor to show it on title bar.
+- React component lifecycle - series of event that happens from the mounting of React components to it's unmounting.
+    Mount : birth of component   
+    Update : Growth of component
+    UnMount : Death of component
+- Methods in react component lifecycle : 
+    render() -> used to render HTML of the component. It runs during the mouting and updation of the component.
+    This method should be pure, means you cannot modify state inside it.
+    componentDidMount() -> runs after component output has been rendered to the DOM.
+    componentDidUpdate() -> it is invoked as soon as the updating happens. This most common use cae is updating 
+    the DOM in response of state or prop change
+    componentWillUnmount() -> called just before the component is unmounted and destroyed. Usually used to perform 
+    cleanups.
+    (there is one diagram about lifecycle which explains it much better...)
+- Instead of directly writing api key anywhere, just create a .env.local file and put that key inside that file. Basically you are 
+    creating environment variable there. It can be used as : process.env.name_of_variable_in_file  . By default .env.local file is there
+    in gitignore file also.
+
+    
