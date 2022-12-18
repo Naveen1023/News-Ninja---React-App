@@ -1,3 +1,10 @@
+# Screenshots from the Application
+![Home image...](https://github.com/Naveen1023/News-Ninja---React-App/blob/main/public/Application%20Screenshots/home.png)
+![Business image...](https://github.com/Naveen1023/News-Ninja---React-App/blob/main/public/Application%20Screenshots/business.png)
+![Sports image...](https://github.com/Naveen1023/News-Ninja---React-App/blob/main/public/Application%20Screenshots/sports.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
